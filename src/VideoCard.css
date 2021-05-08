@@ -39,3 +39,8 @@
 .videoCard__stats >.MuiSvgIcon-root{
     font-size: 17px;
 }
+
+.row{
+    display: flex;
+    flex-direction: column;
+}

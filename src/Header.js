@@ -38,7 +38,7 @@ function Header() {
                     <p>Account</p>
                 </div>
             </div>
-            <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-green-digital.png?fit=960%2C510" alt="" />
+            <img src="https://www.pikpng.com/pngl/m/327-3276414_file-movie-icon-svg-johns-hopkins-logo-white.png" alt="" />
         </div>
     )
 }
