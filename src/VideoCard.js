@@ -1,7 +1,6 @@
 import React from 'react';
 import "./VideoCard.css";
 import TextTruncate from "react-text-truncate";
-import ThumbUpAltRoundedIcon from '@material-ui/icons/ThumbUpAltRounded';
 import { forwardRef } from 'react';
 import { useState } from 'react';
 import movieaddress from "./movieAddress";
@@ -32,21 +31,24 @@ const VideoCard = forwardRef(({ movie }, ref) => {
                 <h2>{movie.title || movie.original_name}</h2>
                 <p className="videoCard__stats">
                     {/* {movie.media_type && `${movie.media_type} .`} */}
-                    {movie.release_date || movie.first_air_date}
+                    {/* {movie.release_date || movie.first_air_date} */}
                     {/* <ThumbUpAltRoundedIcon />{" "}
                     {movie.vote_count} */}
                 </p>
             </div>
-            {movieUrl && <iframe
-                title="Tom"
-                src={movieaddress[movie.id]}
-                width="100%"
-                height="300px"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                allowfullscreen="true"
-            />}
+            <div className="video__box">
+                {movieUrl && <iframe
+                    title="Movie"
+                    src={movieaddress[movie.id]}
+                    width="400em"
+                    height="260em"
+                    frameBorder="0"
+                    marginHeight="0"
+                    marginWidth="0"
+                    allowfullscreen="true"
+                    scrolling="no"
+                />}
+            </div>
         </div>
     )
 });

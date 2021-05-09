@@ -7,11 +7,10 @@ import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import SearchIcon from '@material-ui/icons/Search';
 import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 
-
-
 function Header() {
     return (
         <div className="header">
+            <img src='https://fontmeme.com/permalink/210508/0f8f937a5838e9627f942ad50fbcdcd2.png' alt="" />
             <div className="header__icons">
                 <div className="header__icon header__icon--active">
                     <HomeIcon />
@@ -38,7 +37,7 @@ function Header() {
                     <p>Account</p>
                 </div>
             </div>
-            <img src="https://www.pikpng.com/pngl/m/327-3276414_file-movie-icon-svg-johns-hopkins-logo-white.png" alt="" />
+            
         </div>
     )
 }

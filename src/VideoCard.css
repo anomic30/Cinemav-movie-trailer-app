@@ -1,26 +1,27 @@
 .videoCard{
     color: white;
-    width: 500px;
-    height: 400px;
-    padding: 20px;
+    width: 25em;
+    height: auto;
+    padding: 10px;
     transition: transform 100ms ease-in-out;
-    
+    margin-bottom: 1.5em;
 }
 
 .videoCard:hover{
-    transform: scale(1.09);
+    transform: scale(0.95);
 }
 
 .videoCard > img{
-    height: 300px;
+    height: 15em;
     object-fit: contain;
-    width: 500px;
+    width: 25em;
     cursor: pointer;
 }
 
 .videoCard > h2{
     padding-top: 10px;
-    
+    font-size: 1.4em;
+    padding-left: 3px;
 }
 
 .videoCard > p{
@@ -36,11 +37,17 @@
     display: inline;
 }
 
-.videoCard__stats >.MuiSvgIcon-root{
-    font-size: 17px;
-}
-
 .row{
     display: flex;
     flex-direction: column;
+}
+
+/* .video__box > iframe{
+    border-width: 0.2em;
+    border-color: #33ccff;
+    border-style: transparent;
+} */
+
+.video__box{
+    padding-left: 8px;
 }

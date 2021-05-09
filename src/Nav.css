@@ -3,8 +3,8 @@
     color: white;
     overflow-x: scroll;
     padding: 10px;
-    padding-left: 40px;
-
+    padding-left: 35px;
+    margin-right: 10px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -24,10 +24,11 @@
     margin-right: 30px;
     font-weight: 500;
     opacity: 0.7;
-    transition: transform 50ms ease-out;
+    transition: transform 50ms ease-in;
 }
 
 .nav >h2:hover{
     opacity: 1;
     transform: scale(1.2);
+    color: #33ccffec;
 }

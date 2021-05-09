@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color:black;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.footer  > p{
+    margin-bottom: 0;
+    color: #84868a;
+}
+
+.icons{
+    display: flex;
+    gap: 1em;
+}
+
+.icons .fa{
+    /* width: 50px;
+    height: 50px; */
+    padding: 10px;
+    padding-top: 0;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+.con{
+    color: #33ccffc4;
+    padding: 0;
+}

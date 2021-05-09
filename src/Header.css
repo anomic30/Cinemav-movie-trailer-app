@@ -22,7 +22,12 @@
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
+    /* transition: transform 50ms ease-out; */
 }
+
+/* .header__icon > .MuiSvgIcon-root:hover{
+    transform: scale(1.2);
+} */
 
 .header__icon > p{
     display: none;
@@ -58,5 +63,6 @@
 
 .header > img{
     object-fit: contain;
-    height: 80px;
+    height: 2em;
+    background-color: black;
 }

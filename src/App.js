@@ -4,6 +4,7 @@ import Header from './Header';
 import Nav from './Nav';
 import Results from './Results';
 import requests from './requests';
+import Footer from "./Footer";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
@@ -11,7 +12,8 @@ function App() {
     <div className="app">
       <Header/>
       <Nav setSelectedOption={setSelectedOption}/>
-      <Results selectedOption={selectedOption}/>
+      <Results selectedOption={selectedOption} />
+      <Footer/>
     </div>
   );
 }
