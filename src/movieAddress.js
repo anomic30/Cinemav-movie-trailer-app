@@ -46,7 +46,6 @@ const movieaddress = {
     299536: `https://vidnext.net/streaming.php?id=MTgzNDE1&title=Avengers%3A+Infinity+War&typesub=SUB&sub=L2F2ZW5nZXJzLWluZmluaXR5LXdhci9hdmVuZ2Vycy1pbmZpbml0eS13YXIudnR0&cover=Y292ZXIvYXZlbmdlcnMtaW5maW5pdHktd2FyLnBuZw==`,
     582306: `https://vidnext.net/streaming.php?id=MzEzMTc3&title=Assassin+33+A.D.&typesub=SUB&sub=&cover=Y292ZXIvYXNzYXNzaW4tMzMtYWQucG5n`,
     299534: `https://fcdn.stream/v/47dlpfz786lwpdg#caption=https://sub.movie-series.net/avengers-endgame/avengers-endgame.vtt`,
-    726684: ``,
     527774: `https://fcdn.stream/v/60rx3b04k58w31k#caption=https://sub.movie-series.net/raya-and-the-last-dragon/raya-and-the-last-dragon.vtt`,
     813258: `https://fcdn.stream/v/qy6j0se3xl44lnk#caption=https://sub.movie-series.net/hotel-transylvania-3-summer-vacation/hotel-transylvania-3-summer-vacation.vtt`,
     508442: `https://fcdn.stream/v/7rpx4cg6ngwekzx#caption=https://sub.movie-series.net/soul/soul.vtt`,
@@ -62,6 +61,8 @@ const movieaddress = {
     763568: `https://vidnext.net/streaming.php?id=MzQwMDI4&title=Arlo+the+Alligator+Boy&typesub=SUB&sub=&cover=Y292ZXIvYXJsby10aGUtYWxsaWdhdG9yLWJveS5wbmc=`,
     682254: `https://fcdn.stream/v/x4kj7h5py0pwrpn#caption=https://sub.movie-series.net/scooby-doo-the-sword-and-the-scoob/scooby-doo-the-sword-and-the-scoob.vtt`,
     576393: `https://fcdn.stream/v/-z2p3upl4g3rdq2`,
+    726684: `//vidnext.net/streaming.php?id=MjQ0NTc0&title=Miraculous%3A+Tales+of+Ladybug+%26+Cat+Noir+-+Season+3+Episode+1+-+Chameleon&typesub=SUB&sub=&cover=Y292ZXIvbWlyYWN1bG91cy10YWxlcy1vZi1sYWR5YnVnLWNhdC1ub2lyLXNlYXNvbi0zLnBuZw==`,
+
 
 
     // fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
