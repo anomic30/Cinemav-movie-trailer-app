@@ -59,7 +59,7 @@ const movieaddress = {
     400160: `https://fcdn.stream/v/8p1x6i876plw1z8#caption=https://sub.movie-series.net/the-spongebob-movie-sponge-on-the-run/the-spongebob-movie-sponge-on-the-run.vtt`,
     520946: `https://vidnext.net/streaming.php?id=MzE5OTcx&title=100%25+Wolf&typesub=SUB&sub=LzEwMC13b2xmLzEwMC13b2xmLnZ0dA==&cover=Y292ZXIvMTAwLXdvbGYucG5n`,
     763568: `https://vidnext.net/streaming.php?id=MzQwMDI4&title=Arlo+the+Alligator+Boy&typesub=SUB&sub=&cover=Y292ZXIvYXJsby10aGUtYWxsaWdhdG9yLWJveS5wbmc=`,
-    682254: `https://mega.nz/embed/ZUZCkbKa#iLQNQc7DHsqx7VblLLpdHTLqvb5TyhpQHJ7g1Qt4Tfk`,
+    682254: `https://fcdn.stream/v/x4kj7h5py0pwrpn#caption=https://sub.movie-series.net/scooby-doo-the-sword-and-the-scoob/scooby-doo-the-sword-and-the-scoob.vtt`,
     576393: `https://fcdn.stream/v/-z2p3upl4g3rdq2`,
     726684: `//vidnext.net/streaming.php?id=MjQ0NTc0&title=Miraculous%3A+Tales+of+Ladybug+%26+Cat+Noir+-+Season+3+Episode+1+-+Chameleon&typesub=SUB&sub=&cover=Y292ZXIvbWlyYWN1bG91cy10YWxlcy1vZi1sYWR5YnVnLWNhdC1ub2lyLXNlYXNvbi0zLnBuZw==`,
 
