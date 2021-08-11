@@ -39,9 +39,9 @@
 
 }
 
-.header__icon:hover >p{
+/* .header__icon:hover >p{
     display: inline-flex;
-}
+} */
 
 .header__icon--active > p{
     display: inline-flex !important;
@@ -65,4 +65,43 @@
     object-fit: contain;
     height: 2em;
     background-color: black;
+}
+
+.header__search{
+    
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 25px;
+    color: #33ccffc4;
+    background-color:#413f3f;
+}
+
+.header__search > p>input{
+    margin-left: 2px;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    background: none;
+    color: whitesmoke;
+    height: 21px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header > img{
+        object-fit: contain;
+        height: 1.2em;
+        background-color: black;
+    }
+    .header__search > p>input{
+        margin-left: 2px;
+        font-size: 15px;
+        outline: none;
+        border: none;
+        background: none;
+        color: whitesmoke;
+        height: 21px;
+    }
+    
 }

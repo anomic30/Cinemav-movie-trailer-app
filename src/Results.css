@@ -3,4 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     object-fit: contain;
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
 }

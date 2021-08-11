@@ -51,3 +51,17 @@
 .video__box{
     padding-left: 8px;
 }
+.trailer{
+    max-height: 250px;
+    max-width: 25em;
+}
+
+@media only screen and (max-width: 600px) {
+    .videoCard{
+       width: 22em;
+    }
+
+    .videoCard > img{
+        width: 22em;
+    }
+  }

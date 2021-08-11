@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Footer.css";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -9,9 +11,8 @@ function Footer() {
             </p>
             <br/>
             <div class="icons">
-                <a href="https://github.com/anomic30"><i class="fa fa-github" ></i></a>
-                <a href="https://www.linkedin.com/in/anomic/"><i class="fa fa-linkedin" ></i></a>
-                <a href="https://www.instagram.com/codermav/"><i class="fa fa-instagram" ></i></a>
+                <a href="https://github.com/anomic30"><FaGithub className="icon"/></a>
+                <a href="https://www.linkedin.com/in/anomic/"><FaLinkedin className="icon"/></a>
             </div>
             {/* <div className="con">
                 All your favourite movies in one place!

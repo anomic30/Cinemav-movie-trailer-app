@@ -8,11 +8,12 @@ import Footer from "./Footer";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(requests.fetchTrending);
+  const [searchItem, setSearchItem] = useState("");
   return (
     <div className="app">
-      <Header/>
+      <Header setSearchItem={setSearchItem}/>
       <Nav setSelectedOption={setSelectedOption}/>
-      <Results selectedOption={selectedOption} />
+      <Results selectedOption={selectedOption} searchItem={searchItem} />
       <Footer/>
     </div>
   );

@@ -2,26 +2,26 @@ import React from 'react';
 import "./VideoCard.css";
 import TextTruncate from "react-text-truncate";
 import { forwardRef } from 'react';
-import { useState } from 'react';
-import movieaddress from "./movieAddress";
+import { useState, useEffect } from 'react';
+import movieTrailer from 'movie-trailer';
+import ReactPlayer from 'react-player';
 
 const base_url = "https://image.tmdb.org/t/p/original";
 
 const VideoCard = forwardRef(({ movie }, ref) => {
-    const [movieUrl, setMovieUrl] = useState("");
-    console.log(movie.id);
+    const [trailerURL, setTrailerURL] = useState("");
+    const [show, setShow] = useState(false);
+    
+    useEffect(() => {
+        movieTrailer(movie.title || movie.original_name).then((res) => {
+            setTrailerURL(res);
+        })
+    },[movie.title,movie.original_name])
 
-    const handleClick = (movie) => {
-        if (movieUrl) {
-            setMovieUrl("");
-        } else {
-            setMovieUrl("abcd");
-        }
-    }
     return (
         <div className="row">
             <div ref={ref} class="videoCard">
-                <img onClick={()=>handleClick(movie)} src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt="posters" />
+                <img onClick={()=>setShow(!show)} src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt="posters" />
                 <TextTruncate
                     line={1}
                     element="p"
@@ -36,19 +36,7 @@ const VideoCard = forwardRef(({ movie }, ref) => {
                     {movie.vote_count} */}
                 </p>
             </div>
-            <div className="video__box">
-                {movieUrl && <iframe
-                    title="Movie"
-                    src={movieaddress[movie.id]}
-                    width="400em"
-                    height="260em"
-                    frameBorder="0"
-                    marginHeight="0"
-                    marginWidth="0"
-                    allowfullscreen="true"
-                    scrolling="no"
-                />}
-            </div>
+            {show && <ReactPlayer url={trailerURL} controls={true} width='100%' className="trailer"/>}
         </div>
     )
 });
