@@ -1,4 +1,5 @@
 .nav{
+    user-select: none;
     display: flex;
     color: white;
     overflow-x: scroll;

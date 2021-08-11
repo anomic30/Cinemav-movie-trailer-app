@@ -1,4 +1,5 @@
 .header{
+    user-select: none;
     color: white;
     display: flex;
     padding: 20px;
