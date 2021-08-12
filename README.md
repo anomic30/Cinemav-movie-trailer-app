@@ -5,4 +5,4 @@ Made with React, Material UI, TMDB API and many more...
 https://cinemav.netlify.app/
 
 # Snapshots-
-![](homee.png)
+![](home.png)
